@@ -9,6 +9,6 @@ function extractNumbersFromLine(line) {
   total += parseInt(numberPair);
 }
 
-await processLinesInFile('1-1.txt', extractNumbersFromLine);
+await processLinesInFile(extractNumbersFromLine);
 
 console.log(total);

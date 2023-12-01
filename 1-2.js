@@ -49,6 +49,6 @@ function extractNumbersFromLine(line) {
   iterateTotal(convertedPair);
 }
 
-await processLinesInFile('1-1.txt', extractNumbersFromLine);
+await processLinesInFile(extractNumbersFromLine);
 
 console.log(total);
